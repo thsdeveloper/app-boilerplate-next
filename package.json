@@ -18,7 +18,8 @@
   },
   "lint-staged": {
     "src/**/*": [
-      "eslint --fix"
+      "eslint --fix",
+      "npm run test --bail"
     ]
   },
   "dependencies": {
