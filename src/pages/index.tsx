@@ -5,7 +5,7 @@ type Props = {
   title: string
 }
 
-const ffffddsdsffsaffffff = 'var'
+const ffffddsdsfdffdfsaffffff = 'var'
 
 export default function Home({ title = 'Adebsystem Maps' }: Props) {
   return (

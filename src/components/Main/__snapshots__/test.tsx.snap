@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Main /> Deve renderizar o título 1`] = `
+<main>
+  <h1>
+    React Avançado
+  </h1>
+</main>
+`;
