@@ -11,6 +11,11 @@
     "test:watch": "jest --watch",
     "test:clear": "jest --clearCache"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
   "lint-staged": {
     "src/**/*": [
       "eslint --fix"
